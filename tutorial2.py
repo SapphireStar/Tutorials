@@ -7,3 +7,4 @@ if num %2 ==0 or num %3 ==0 or num%4 ==0:
 else:
     print("the number",num,"is not multiple of 2,3,4")
 print("End of program")
+
