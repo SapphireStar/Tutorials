@@ -7,6 +7,8 @@ class Person():
         self.weight = "N/A"
         self.height = "N/A"
         self.section = "N/A"
+
+    #this function require user to input the data the class need
     def input_person_data(self,name,ID,age,weight,height,section):
         self.name = name
         self.ID = ID
@@ -15,6 +17,7 @@ class Person():
         self.height = height
         self.section = section
     
+    #this function is to print all the data out 
     def get_person_data(self):
         print("name: "+self.name+"\n"+"ID: "+self.ID+"\n"+"age: "+self.age+"\n"+"weight: "+self.weight+"\n"+"height: "+self.height+"\n"+"section: "+self.section+"\n")
 
@@ -27,6 +30,7 @@ def main():
     Jack.input_person_data("Jack","1131001","20","60kg","175cm","W02")
 
     person = Person()
+    
 
     Isaac.get_person_data()
     Jack.get_person_data()
